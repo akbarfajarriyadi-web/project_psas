@@ -11,7 +11,7 @@ if (isset($_POST['save'])) {
     $nama   = $_POST['nama'];
     $nomor  = $_POST['nomor'];
 
-    // default status = 1 (Ready)
+    
     $status = 1; 
 
     mysqli_query($conn, 
