@@ -13,6 +13,19 @@ $kendaraan = mysqli_fetch_assoc($data);
 ?>
 
 <h2>Form Peminjaman Kendaraan</h2>
+<hr><br>
+<a href="user_index.php">
+    <button>🏠 Index User</button>
+</a>
+
+<a href="pinjam_form.php">
+    <button>📝 form pinjam</button>
+</a>
+
+<a href="riwayat.php">
+    <button>📄 riwayat</button>
+</a>
+<br><br>
 
 <p><b>Kendaraan:</b> <?= $kendaraan['nama']; ?> (<?= $kendaraan['noplat']; ?>)</p>
 <br>
