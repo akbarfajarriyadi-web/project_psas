@@ -18,7 +18,7 @@ if (isset($_POST['save'])) {
         "INSERT INTO kendaraan (kendaraan_nama, kendaraan_nomor, status) 
          VALUES ('$nama', '$nomor', '$status')");
 
-    header("Location: kendaraan.php");
+    header("Location: index_admin.php");
     exit;
 }
 ?>
