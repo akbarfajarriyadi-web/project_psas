@@ -14,7 +14,19 @@ $data = mysqli_query($conn, "
     ORDER BY p.pinjam_id DESC
 ");
 ?>
+<hr><br>
+<a href="user_index.php">
+    <button>🏠 Index User</button>
+</a>
 
+<a href="pinjam_form.php">
+    <button>📝 form pinjam</button>
+</a>
+
+<a href="riwayat.php">
+    <button>📄 riwayat</button>
+</a>
+<br><br>
 <h2>Riwayat Peminjaman</h2>
 
 <table border="1" cellpadding="8" cellspacing="0">
