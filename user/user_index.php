@@ -81,7 +81,18 @@ $user = mysqli_fetch_assoc($user_query);
 <a class="btn logout" style="background:#e63946;" href="../logout.php">Logout</a>
 
 <hr><br>
+<a href="user_index.php">
+    <button>🏠 Index User</button>
+</a>
 
+<a href="form_pinjam.php">
+    <button>📝 form pinjam</button>
+</a>
+
+<a href="riwayat.php">
+    <button>📄 riwayat</button>
+</a>
+<br><br>
 <h3>Daftar Kendaraan yang Tersedia</h3>
 
 <?php
