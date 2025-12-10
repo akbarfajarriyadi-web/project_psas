@@ -14,7 +14,7 @@ if (isset($_POST['save'])) {
     $role = $_POST['role'];
 
     mysqli_query($conn, "INSERT INTO user (nama, username, password, role) VALUES ('$nama', '$username', '$password', '$role')");
-    header("Location: index.php");
+    header("Location: index_admin.php");
 }
 ?>
 
