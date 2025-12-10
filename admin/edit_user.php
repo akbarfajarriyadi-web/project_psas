@@ -33,7 +33,7 @@ if (isset($_POST['update'])) {
             WHERE id='$id'");
     }
 
-    header("Location: index.php");
+    header("Location: index_admin.php");
 }
 ?>
 
