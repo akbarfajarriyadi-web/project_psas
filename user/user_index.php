@@ -85,7 +85,7 @@ $user = mysqli_fetch_assoc($user_query);
     <button>🏠 Index User</button>
 </a>
 
-<a href="form_pinjam.php">
+<a href="pinjam_form.php">
     <button>📝 form pinjam</button>
 </a>
 
